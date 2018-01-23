@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackBddFyDemo.Lib", "StackBddFyDemo.Lib\StackBddFyDemo.Lib.csproj", "{5514CF8F-A765-4A5F-B5C8-7CE32B4A7F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackBddFyDemo.Tests", "StackBddFyDemo.Tests\StackBddFyDemo.Tests.csproj", "{2B94363B-174A-4CD6-90C8-063F06CE5EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5514CF8F-A765-4A5F-B5C8-7CE32B4A7F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5514CF8F-A765-4A5F-B5C8-7CE32B4A7F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5514CF8F-A765-4A5F-B5C8-7CE32B4A7F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5514CF8F-A765-4A5F-B5C8-7CE32B4A7F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B94363B-174A-4CD6-90C8-063F06CE5EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B94363B-174A-4CD6-90C8-063F06CE5EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B94363B-174A-4CD6-90C8-063F06CE5EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B94363B-174A-4CD6-90C8-063F06CE5EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

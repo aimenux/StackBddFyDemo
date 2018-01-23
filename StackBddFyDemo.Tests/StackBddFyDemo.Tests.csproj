@@ -56,9 +56,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PeekEmptyStackScenario.cs" />
-    <Compile Include="PeekFullStackScenario.cs" />
-    <Compile Include="PeekStory.cs" />
+    <Compile Include="PeekTests\PeekEmptyStackScenario.cs" />
+    <Compile Include="PeekTests\PeekFullStackScenario.cs" />
+    <Compile Include="PeekTests\PeekStory.cs" />
+    <Compile Include="PopTests\PopStory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +71,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -51,11 +51,14 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Configuration.cs" />
     <Compile Include="PeekTests\PeekEmptyStackScenario.cs" />
     <Compile Include="PeekTests\PeekFullStackScenario.cs" />
     <Compile Include="PeekTests\PeekStory.cs" />
